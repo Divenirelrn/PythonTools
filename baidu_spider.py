@@ -17,7 +17,8 @@ def get_urls(offset, topic):
     :param offset: page num
     :return: urls
     """
-    url = 'https://image.baidu.com/search/index?'
+    # url = 'https://image.baidu.com/search/index?'
+    url = "https://image.baidu.com/search/flip?"
     params = {
         'tn': 'resultjson_com',
         'ipn': 'rj',
